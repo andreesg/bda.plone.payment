@@ -20,6 +20,9 @@ class IPaymentEvent(Interface):
 
     data = Attribute(u"Optional data as dict")
 
+    download_link = Attribute(u"Optional download link")
+    
+
 
 class IPaymentSuccessEvent(IPaymentEvent):
     """This event gets triggered when payment was successful.

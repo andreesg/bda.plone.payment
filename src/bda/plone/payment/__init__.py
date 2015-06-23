@@ -14,12 +14,13 @@ from bda.plone.payment.interfaces import IPaymentSettings
 @implementer(IPaymentEvent)
 class PaymentEvent(object):
 
-    def __init__(self, context, request, payment, order_uid, data):
+    def __init__(self, context, request, payment, order_uid, data, download_link=None):
         self.context = context
         self.request = request
         self.payment = payment
         self.order_uid = order_uid
         self.data = data
+        self.download_link = download_link
 
 
 @implementer(IPaymentSuccessEvent)
@@ -78,8 +79,8 @@ class Payment(object):
         settings = IPaymentSettings(self.context)
         return self.pid == settings.default
 
-    def succeed(self, request, order_uid, data=dict()):
-        evt = PaymentSuccessEvent(self.context, request, self, order_uid, data)
+    def succeed(self, request, order_uid, data=dict(), download_link=None):
+        evt = PaymentSuccessEvent(self.context, request, self, order_uid, data, download_link)
         notify(evt)
 
     def failed(self, request, order_uid, data=dict()):
