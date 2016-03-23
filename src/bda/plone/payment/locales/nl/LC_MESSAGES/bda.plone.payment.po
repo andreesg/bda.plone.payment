@@ -92,7 +92,7 @@ msgstr "Verder"
 #. Default: "Payment Error"
 #: six_payment/success.pt:35
 msgid "payment_error"
-msgstr "Fout tijdens het afrekenen"
+msgstr "Er is iets mis gegaan"
 
 #. Default: "Payment Failed"
 #: six_payment/failed.pt:22
@@ -127,7 +127,7 @@ msgstr "Uw bestelling is succesvol afgerond"
 #. Default: "Something nasty is going on. Payment verification failed. If you think the failure remains on our side, please contact"
 #: six_payment/success.pt:39
 msgid "six_payment_verification_failed"
-msgstr "Er is iets mis gegaan. De betalingsverificatie is mislukt. Neem contact met ons op als u denkt dat de fout bij ons ligt. "
+msgstr "Er is iets mis gegaan. De betalingsverificatie is mislukt. Probeer het nog eens of neem contact met ons op als je denkt dat de fout bij ons ligt."
 
 #: six_payment/failed.pt:30 six_payment/success.pt:43
 msgid "us"
