@@ -138,3 +138,33 @@ msgstr "ons"
 #: cash_on_delivery/cash_on_delivery.pt:24
 msgid "your_order_order_id"
 msgstr "Uw ordernummer: ${number}"
+
+msgid "Thank you very much for your order!"
+msgstr "Hartelijk bedankt voor je bestelling!"
+
+msgid "This will be shipped within 3-5 days via TPG Post."
+msgstr "Deze wordt binnen 3-5 dagen via TPG Post verzonden."
+
+msgid "Within minutes you will receive a confirmation of your order by email."
+msgstr "Binnen enkele minuten ontvangt u een bevestiging van uw bestelling per mail."
+
+msgid "Please check your spam and junk email folder if you have not received the email."
+msgstr "Controleer uw spam en ongewenste e-mail map wanneer u de e-mail niet ontvangen heeft."
+
+msgid "Your order (order number:"
+msgstr "Je bestelling (ordernummer:"
+
+msgid "was completed successfully."
+msgstr "is met succes afgerond."
+
+msgid "Within minutes you will receive the order confirmation with your e-ticket (s) in attachment."
+msgstr "Binnen enkele minuten ontvang je de bestellingsbevestiging met je e-ticket(s) in de bijlage."
+
+msgid "Please check your spam and junk email folder if you have not received the email."
+msgstr "Controleer je spam en ongewenste e-mail map wanneer je de e-mail niet ontvangen hebt."
+
+msgid "Contact"
+msgstr "Neem contact op"
+
+
+
