@@ -94,7 +94,7 @@ msgstr "continue"
 #. Default: "Payment Error"
 #: ./six_payment/success.pt:35
 msgid "payment_error"
-msgstr "Payment Error"
+msgstr "Something went wrong"
 
 #. Default: "Payment Failed"
 #: ./six_payment/failed.pt:22
@@ -129,7 +129,7 @@ msgstr "Your Order has been completed successful."
 #. Default: "Something nasty is going on. Payment verification failed. If you think the failure remains on our side, please contact"
 #: ./six_payment/success.pt:39
 msgid "six_payment_verification_failed"
-msgstr "Something nasty is going on. Payment verification failed. If you think the failure remains on our side, please contact"
+msgstr "Oops, something went wrong. Your tickets have not been payed because the payment verification failed. We're sorry for the inconvenience. Please try again to order your tickets, or contact us if you think the problem is on our side:"
 
 #: ./six_payment/failed.pt:30
 #: ./six_payment/success.pt:43

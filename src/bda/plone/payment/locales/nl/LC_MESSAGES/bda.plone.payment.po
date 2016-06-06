@@ -163,7 +163,7 @@ msgstr "Binnen enkele minuten ontvang je de bestellingsbevestiging met je e-tick
 msgid "Please check your spam and junk email folder if you have not received the email."
 msgstr "Controleer je spam en ongewenste e-mail map wanneer je de e-mail niet ontvangen hebt."
 
-msgid "Contact"
+msgid "Contact us"
 msgstr "Neem contact op"
 
 
