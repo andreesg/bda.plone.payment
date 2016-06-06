@@ -157,7 +157,7 @@ msgstr "Je bestelling (ordernummer:"
 msgid "was completed successfully."
 msgstr "is met succes afgerond."
 
-msgid "Within minutes you will receive the order confirmation with your e-ticket (s) in attachment."
+msgid "Within minutes you will receive an email with the order confirmation and your e-ticket(s) in the attachment."
 msgstr "Binnen enkele minuten ontvang je de bestellingsbevestiging met je e-ticket(s) in de bijlage."
 
 msgid "Please check your spam and junk email folder if you have not received the email."
